@@ -1,0 +1,13 @@
+.Slider {
+  display:flex;
+  justify-content: center;
+  background: #e1e1e1;
+}
+
+.Slider .slider-principal .img {
+  width: 100%;
+}
+
+.Slider .slider-principal .img-mobile {
+  display: none;
+}

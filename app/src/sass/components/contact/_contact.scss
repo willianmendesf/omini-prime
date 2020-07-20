@@ -1,0 +1,91 @@
+.Contact .contact-content {
+  padding:7.500em .9em;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Contact .title-h2 {
+  color: #ffffff;
+  font-size: 3.500em;
+  line-height: 1.1em;
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+
+.Contact .title-h2 .span {
+  display: block;
+}
+  
+.Contact .col .col-title {
+  color: #FF6F11;
+  font-weight: 100;
+  line-height: 0em;
+}
+
+.Contact .col .col-text {
+  line-height: 0em;
+}
+
+.Contact .left .divisor{
+  border-bottom: 1px solid #ff6f11;
+  width: 5.875em;
+}
+
+.Contact .contact {
+  margin-top: 2.5rem;
+  padding-left: 1.875em;
+}
+
+.Contact .contact .contact-item{
+  padding-bottom: 1em;
+}
+
+
+.Contact .right .title-h3 {
+  font-size: 1.500em;
+  text-align: center;
+}
+
+.Contact .right .form {
+  position: relative;
+}
+
+.Contact .right .form .content {
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+  padding: 2em;
+  max-width: 35.875em;
+  border-radius: 1.5em;
+  margin: 0 auto;
+}
+
+.Contact .right .form input,
+.Contact .right .form textarea  {
+  width: 100%;
+  padding: .813em 2em;
+  margin-bottom: 1em;
+  border-radius: .500em;
+  border: solid #C4C4C4 .1em;
+}
+
+
+.Contact .right .form .button {
+  position: relative;
+  margin: -20px auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Contact .right .form .button input {
+  border: none;
+  color: #ffffff;
+  background: #FF6F11;
+  text-align: center;
+  font-weight: bold;
+  font-size: .8em;
+  border-radius: 1.063rem;
+  letter-spacing: .1em;
+}

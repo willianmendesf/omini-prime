@@ -1,0 +1,48 @@
+@media (max-width:960px){
+  .Sobre .content {
+    display: initial;
+  }
+  .Sobre .container#diferenciais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Sobre .content img{
+    width: 100%;
+  }
+  .Sobre .cards {
+    display: grid;
+  }
+  .Sobre .cards .card {
+    max-width: 17rem;
+    margin: 1rem auto;
+  }
+  .Sobre .content .col.one {
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  .Sobre .content .col .title-h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width:1020px){
+  .Sobre .content .tree .text{
+    display: none;
+  }
+}
+
+@media (min-width:960px){
+  .Sobre .cards .card-1,
+  .Sobre .cards .card-3{
+    margin-top: 4em;
+  }
+}
+
+@media (min-width:960px) and (max-width:1020px){
+  .Sobre .cards .card {
+    margin: .5rem;
+    padding:2rem;
+    display: flex;
+  }
+}

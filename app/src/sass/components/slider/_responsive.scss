@@ -1,0 +1,11 @@
+@media (max-width:950px) {
+  .Slider {
+    display: initial;
+  }
+  .Slider .slider-principal .img-desktop {
+    display: none;
+  }
+  .Slider .slider-principal .img-mobile {
+    display: initial;
+  }
+}

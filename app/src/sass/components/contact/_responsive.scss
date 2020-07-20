@@ -1,0 +1,15 @@
+@media (max-width:960px) {
+  .Contact .contact-content {
+    display: initial;
+    text-align: center;
+  }
+  .Contact .title-h2 {
+    font-size: 2rem;
+  }
+  .Contact .left .divisor {
+    display: none;
+  }
+  .Contact .form {
+    margin: 2rem;
+  }
+}

@@ -1,0 +1,15 @@
+.Consulting .content{
+  display: flex;
+}
+
+.Consulting .content.one .left{
+  width: 50%;
+  text-align: center;
+  margin-top: -4em;
+}
+
+.Consulting .content.one .rigth{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}

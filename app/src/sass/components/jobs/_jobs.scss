@@ -1,0 +1,43 @@
+.Jobs {
+  background: linear-gradient(-45deg, #10599B, #0A305C);
+  padding:9.375em 0;
+}
+
+.Jobs .box {
+  // background: linear-gradient(35deg, #0047FF88 0%, #0A305C11);
+  border-radius: 4em;
+  padding: 4em;
+  color: #ffffff;
+}
+
+.Jobs .box .header {
+  display: flex;
+  padding: 5em 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Jobs .box .header .title-h2 {
+  max-width: 10em;
+}
+.Jobs .box .header .mini-title {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-size: 0.875em;
+  margin-top: 5em;
+  color: #FF6F11;
+}
+.Jobs .box .header .blockquote {
+  padding: 1.5em;
+  margin: 0;
+  border: .01em solid #ffffff55;
+  border-radius: 1em;
+}
+.Jobs .box .header > .left,
+.Jobs .box .header > .rigth {
+  width: 45%;
+}
+
+.Jobs .box .header .blockquote#two {
+  display: none;
+}

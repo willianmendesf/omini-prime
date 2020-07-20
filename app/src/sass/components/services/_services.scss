@@ -1,0 +1,17 @@
+.Servicos .content{
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Servicos .content .title-h3{
+  text-align: initial;
+  font-size: 1.5em;
+  font-weight: 400;
+  width: 8em;
+}
+
+.Servicos .content .col .text{
+  width: 30em;
+}

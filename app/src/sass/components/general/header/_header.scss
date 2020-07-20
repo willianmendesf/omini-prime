@@ -1,0 +1,60 @@
+.Header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+}
+
+.Header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.2em .9em;
+}
+
+.Header .logomarca {
+  width: 20%;
+}
+
+.Header .logomarca .logo {
+  max-width: 10em;
+}
+
+
+.Header .navbar {
+  padding: .1em 0;
+}
+
+.Header .navbar .nav{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Header .navbar .nav .nav-item {
+  text-decoration: none;
+  margin:0 1.2em;
+  color: #fff; 
+  padding: .3em 1em;
+  transition: all .3s;
+}
+
+.Header .navbar .nav .nav-item:hover {
+  background: #FF6F11;
+  color: #fff;
+  border-radius: 100em;
+  transition: all .3s;
+}
+
+
+.Header .-destak {
+  background: #FF6F11;
+  color: #fff;
+  border-radius: 100em;
+  padding: .3em 1em;
+}
+.Header .header-mobile {
+  display: none;
+}

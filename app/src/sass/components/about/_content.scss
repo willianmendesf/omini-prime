@@ -1,0 +1,27 @@
+.Sobre .content {
+  display: flex;
+  padding-bottom: 12.500em;
+}
+
+.Sobre .content .col .title-h2 {
+  margin-top: 1.8em;
+  max-width: 23rem;
+  width: 100%;
+}
+
+.Sobre .content .col .img {
+  margin-top: -3.125em;
+}
+
+.Sobre .content .col .text {
+  color: #ffffff;
+  max-width: 23rem;
+  width: 100%;
+  display: -webkit-inline-box;
+}
+
+.Sobre .content .tree .text{
+  margin-top: 8em;
+  margin-bottom: 2.5em;
+  text-align: right;
+}

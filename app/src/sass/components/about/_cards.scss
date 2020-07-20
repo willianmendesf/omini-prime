@@ -1,0 +1,26 @@
+.Sobre .cards {
+  display: flex;
+  margin-top: -8.750em;
+  padding-bottom: 7em;
+}
+
+.Sobre .cards .card{
+  background: #fff;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 4em;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4em 0 #00000011, 0 0 2em 0 #00000055;
+}
+
+.Sobre .cards .card-title {
+  font-size: 2em;
+  color:  #0A305C;
+  line-height: 1;
+  margin: .4em 0;
+}

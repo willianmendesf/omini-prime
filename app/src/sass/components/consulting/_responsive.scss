@@ -1,0 +1,28 @@
+@media (max-width:960px) {
+  .Consulting .left img{
+    width: 100%;
+  }
+  .Consulting .content.one .rigth .title-h2 {
+    font-size: 2.5em;
+  }
+  .Consulting .content.one .rigth .title-h2 .span {
+    font-size: 3.5rem;
+  }
+  .Consulting .rigth .block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: flex-end;
+    margin-right: 2rem;
+  }
+  .Consulting .rigth .block .divisor-r-2 {
+    display: none;
+  }
+  .Consulting .content.two .card {
+    margin: 1em;
+  }
+  .Consulting .content.two .card .body {
+    padding: 0;
+  }
+}

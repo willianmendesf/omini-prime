@@ -1,0 +1,67 @@
+@media (max-width:960px){
+  .Jobs .box .header .blockquote#one {
+    display: none;
+  }
+  .Jobs .box .header .blockquote#two {
+    display: block;
+  }
+}
+.Jobs .box .header .job-image {
+  width: 100%;
+}
+
+.Jobs .box .header .left >
+.Jobs .box .header .rigth {
+  width: 100%;
+}
+
+
+.Jobs .body .box-services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Jobs .body .box-services .boxed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  background: #0A305C;
+  padding: 1.6em;
+  border-radius: 1em;
+  margin: .6em;
+  height: 7em;
+}
+.Jobs .body .box-services .boxed .ico {
+  margin-right: 2em;
+}
+
+
+
+
+@media (max-width:960px){
+  section.Jobs.bg-blue {
+    padding: 0 0 5em 0;
+  }
+  .Jobs .box {
+    background: transparent;
+    padding: 2em;
+  }
+  .Jobs .box .header {
+    padding: 0;
+  }
+  .Jobs .body {
+    margin-top: 1em;
+  }
+  .Jobs .box .header .title-h2 {
+    font-size: 2.5em;
+  }
+  .Jobs .body .box-services .boxed {
+    display: block;
+    height: 100%;
+    text-align: center;
+  }
+  .Jobs .body .box-services .boxed .ico {
+    margin-right: 0;
+  }
+}
