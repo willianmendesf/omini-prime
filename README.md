@@ -99,4 +99,4 @@ build: yarn build
 
 <br/><br/>
 ## Cliente site:
-https://prinmetecnologias.com.br
+https://primetecnologias.com.br/
